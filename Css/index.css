@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(253, 253, 255);
+
+}
+.contenedor {
+    margin-top: 50px;
+    background-color: rgb(253, 253, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+
+.Price-lef {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 500px;
+}
+.Price-center {
+    font-size: 25px;
+    color:  rgb(62, 88, 235);
+    font-weight: 500px;
+}
+.Price-righ {
+    font-size: 25px;
+    color:  rgb(229, 249, 9);
+    font-weight: 500px;
+}
+
+
+.caja-lef {
+    background-color: rgb(253, 252, 250);
+    width: 175px;
+    height: 330px;
+    color: rgba(10, 10, 10, 0.262);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    color: black;
+    box-shadow: 0 20px 15px 0 rgb(153, 156, 154) ;
+
+}
+.caja-center{
+    background-color: rgb(253, 252, 250);
+    width: 175px;
+    height: 330px;
+    color: rgba(10, 10, 10, 0.262);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    color: black;
+    box-shadow: 0 20px 15px 0 rgb(153, 156, 154) ;
+
+}
+.caja-righ {
+    background-color: rgb(253, 252, 250);
+    width: 175px;
+    height: 330px;
+    color: rgba(10, 10, 10, 0.262);
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    color: black;
+    box-shadow: 0 20px 15px 0 rgb(153, 156, 154) ;
+
+}
+
+
+.Starter {
+    color: rgb(19, 19, 19);
+    font-size: 15px;
+}
+
+.btn-lef {
+    border: none;
+    background-color: rgb(4, 4, 4);
+    color: rgb(238, 238, 246);
+    font-family: Arial;
+    font-size: 11px;
+    width: 175px;
+    height: 60px;
+}
+.btn-center {
+    border: none;
+    background-color: rgb(62, 88, 235);
+    color: rgb(238, 238, 246);
+    font-family: Arial;
+    font-size: 11px;
+    width: 175px;
+    height: 60px;
+}
+.btn-righ {
+    border: none;
+    background-color:  rgb(229, 249, 9);
+    color: rgb(95, 95, 102);
+    font-family: Arial;
+    font-size: 11px;
+    width: 175px;
+    height: 60px;
+}
+.btn-righ:hover{
+background-color: rgb(234, 14, 14);
+color: white;
+}
+.btn-center:hover{
+    background-color: rgb(234, 14, 14);
+color: white;
+}
+.btn-lef:hover{
+    background-color: rgb(234, 14, 14);
+color: white;
+
+}
+
+
+.btn-center:hover .Price-center{
+    color: rgb(246, 8, 8);
+    background-color: black;
+}
+
+.texto-lef{
+    font-size: 10px;
+}
+
+:has(.btn-lef:hover) .Price-lef{
+    color: rgb(246, 8, 8);
+}
+:has(.btn-center:hover) .Price-center{
+    color: rgb(246, 8, 8);
+
+}
+:has(.btn-righ:hover) .Price-righ{
+    color: rgb(246, 8, 8);
+}
